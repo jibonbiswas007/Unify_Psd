@@ -1,0 +1,765 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: Your template name 
+    Template URI: http://bootexperts.com
+    Description: This is html5 template
+    Author: BootExperts
+    Author URI: http://bootexperts.com
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+    
+    CSS INDEX
+    ===================
+	
+    1. Theme Default CSS (body, link color, section etc)
+
+-----------------------------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+/*----------------------------------------*/
+/*  1.  Theme default CSS
+/*----------------------------------------*/
+html, body {height: 100%;}
+.floatleft {float:left}
+.floatright {float:right}
+.alignleft {float:left;margin-right:15px;margin-bottom: 15px}
+.alignright {float:right;margin-left:15px;margin-bottom: 15px}
+.aligncenter {display:block;margin:0 auto 15px}
+a:focus {outline:0px solid}
+img {max-width:100%;height:auto}
+.fix {overflow:hidden}
+p {margin:0 0 15px;}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 10px;
+  font-family: 'Raleway', sans-serif;
+  color: #353535;
+  font-weight: 700;
+}
+a {transition: all 0.3s ease 0s;text-decoration:none;}
+a:hover {
+  color: #ec4445;
+  text-decoration: none;
+}
+a:active, a:hover {
+  outline: 0 none;
+}
+ul{
+list-style: outside none none;
+margin: 0;
+padding: 0
+}
+.clear{clear:both}
+body {
+    font-family: 'Lato', sans-serif;
+    color: #555;
+    font-size: 14px;
+    line-height: 1.7;
+}
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/*======== Background Css =========*/
+.slide-bg-1 {background: url(asset/img/slide-bg.jpg);}
+.portpolio-bg-1 {background: url(asset/img/port-bg-1.jpg);}
+.portpolio-bg-2 {background: url(asset/img/port-bg-2.jpg);}
+.portpolio-bg-3 {background: url(asset/img/port-bg-3.jpg);}
+.portpolio-bg-4 {background: url(asset/img/port-bg-4.jpg);}
+.portpolio-bg-5 {background: url(asset/img/port-bg-5.jpg);}
+.portpolio-bg-6 {background: url(asset/img/port-bg-6.jpg);}
+.blog-bg-1 {background: url(asset/img/blog-bg-1.jpg);}
+.blog-bg-2 {background: url(asset/img/blog-bg-2.jpg);}
+
+/*======== Section Padding Margin Css =========*/
+.section-padding {
+  padding: 100px 0;
+}
+.section-top-100 {
+  padding-top: 100px;
+}
+.padding-top-80 {
+    padding-top: 80px;
+}
+.mb-100 {margin-bottom: 100px;}
+/*======== Header Area Css =========*/
+.header-area {
+  left: 0;
+  padding: 15px 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+.header-area::before {
+  background: rgba(255, 255, 255, 0.8) none repeat scroll 0 0;
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.mainmenu ul {}
+.mainmenu ul li {
+  display: inline-block;
+}
+.mainmenu ul li a {
+  color: #353535;
+  display: block;
+  font-family: "Raleway",sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 30px 15px;
+  text-transform: uppercase;
+}
+.mainmenu ul li:hover a {
+    color: #8EC448;
+}
+.search form {
+  margin-top: 15px;
+  position: relative;
+}
+.search form input {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: 1px solid #dddddd;
+  padding: 8px;
+  width: 100%;
+}
+.search form button {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border-color: currentcolor currentcolor currentcolor #dddddd;
+  border-image: none;
+  border-style: none none none solid;
+  border-width: medium medium medium 1px;
+  cursor: pointer;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  width: 35px;
+}
+
+/*======== Slider Area Css =========*/
+.slider-text {}
+.single-slide-item {
+  background-position: center center;
+  background-size: cover;
+  height: 800px;
+  width: 100%;
+}
+.single-slide-table-cell {
+  vertical-align: middle;
+}
+.slider-text h3 {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 24px;
+  margin: 0;
+  text-transform: uppercase;
+}
+.slider-text h1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 55px;
+  margin: 30px 0;
+  text-transform: uppercase;
+}
+.unify-btn {
+  border: 1px solid #121212;
+  border-radius: 5px;
+  color: #353535;
+  display: inline-block;
+  font-family: "Raleway",sans-serif;
+  font-size: 13px;
+  font-weight: 900;
+  margin: 0 5px;
+  padding: 15px 30px;
+  text-transform: uppercase;
+}
+.slider-text a:hover {
+    background: #8EC448;
+    color: #fff;
+    border-color: #8EC448;
+}
+/*======== Owl-Carousel Css =========*/
+.single-service-item {
+  margin-bottom: 100px;
+}
+.homepage-slides .owl-dots, .testimonial-active .owl-dots, .blog-active .owl-dots {
+  bottom: 40px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+.homepage-slides .owl-dots div, .testimonial-active .owl-dots div, .blog-active .owl-dots div {
+  border: 1px solid #121212;
+  border-radius: 50%;
+  display: inline-block;
+  height: 10px;
+  margin: 0 5px;
+  transition: all 0.3s ease 0s;
+  width: 10px;
+}
+.homepage-slides .owl-dots div.active, .testimonial-active .owl-dots div.active, .blog-active .owl-dots div.active {
+  background: #8ec448 none repeat scroll 0 0;
+  border-color: #8ec448;
+}
+/*======== Service Area Css =========*/
+.section-title {
+  margin-bottom: 60px;
+}
+.section-title h3 {
+  font-weight: 800;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  position: relative;
+  text-transform: uppercase;
+  z-index: 1;
+}
+.section-title h3::before {
+  background: #353535 none repeat scroll 0 0;
+  bottom: 0;
+  content: "";
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  width: 50px;
+}
+.section-title p {
+    margin: 0;
+}
+.service-icon i {
+  font-size: 34px;
+}
+.single-service-item h6 {
+  font-size: 13px;
+  font-weight: 700;
+  margin: 20px 0;
+  text-transform: uppercase;
+}
+.single-service-item p:last-child {
+  margin: 0;
+}
+/*======== Works Area Css =========*/
+.portpolio-menu {
+  margin-bottom: 50px;
+}
+.portpolio-menu ul li {
+  cursor: pointer;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 0 16px;
+  position: relative;
+  text-transform: uppercase;
+  transition: all 0.3s ease 0s;
+  z-index: 1;
+}
+.portpolio-menu ul li::before {
+  color: #353535;
+  content: "/";
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.portpolio-menu ul li:last-child::before {
+    display: none;
+}
+.portpolio-menu ul li:hover {
+    color: #8ec448;
+}
+.portpolio-item {
+  position: relative;
+  margin-bottom: 30px;
+}
+.single-portpolio-bg {
+  background-color: #ddd;
+  background-position: center center;
+  background-size: cover;
+  height: 400px;
+  position: relative;
+  width: 100%;
+}
+.single-portpolio-bg::before {
+  background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
+  content: "";
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  transform: perspective(1000px) rotateY(45deg);
+  transform-origin: left center 0;
+  transition: all 1s ease 0s;
+  width: 100%;
+}
+.portpolio-item:hover .single-portpolio-bg::before {
+    transform: perspective(1000px) rotateY(0deg);
+    opacity: 1;
+}
+.portpolio-hover {
+  bottom: 65px;
+  color: #fff;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+.portpolio-icon {
+  margin-bottom: 165px;
+  opacity: 0;
+  transition: all 0.5s ease 0.5s;
+}
+.portpolio-item:hover .portpolio-icon {
+    opacity: 1;
+    margin-bottom: 65px;
+}
+.portpolio-icon a {
+  background: #8ec448 none repeat scroll 0 0;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 26px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  width: 50px;
+  color: #fff;
+}
+.portpolio-info {
+  position: relative;
+  top: 70px;
+  transition: all 0.5s ease 0.5s;
+  opacity: 0;
+}
+.portpolio-item:hover .portpolio-info {
+    top: 0;
+    opacity: 1;
+}
+.portpolio-info h6 {
+  color: #8ec448;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.portpolio-info p {
+  font-style: italic;
+  margin: 0;
+}
+.unify-btn.load-more {
+  margin-top: 30px;
+}
+.unify-btn i.fa {
+  padding-left: 7px;
+}
+/*======== About Area Css =========*/
+.section-title.about-title {
+  margin-bottom: 30px;
+}
+.about-img {
+  position: relative;
+}
+.about-img::before {
+  background: #8ec448 none repeat scroll 0 0;
+  content: "";
+  height: 100%;
+  position: absolute;
+  right: 69px;
+  top: 0;
+  transform: skewX(-26deg);
+  width: 12px;
+}
+/*======== Our Skill Area Css =========*/
+.our-skill-area {
+  background: #f1f1f1 none repeat scroll 0 0;
+}
+.single-barfiller-item h6 {
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+/*======== Our Team Area Css =========*/
+.single-team-member {
+  overflow: hidden;
+  position: relative;
+}
+.team-info {
+  bottom: 0;
+  height: 30%;
+  position: absolute;
+  text-align: center;
+  transition: all 0.5s ease 0s;
+  width: 100%;
+  z-index: 1;
+}
+.team-inner-content {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.team-info::before {
+  background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+.team-title {
+  position: relative;
+  top: 30px;
+  transition: all 0.5s ease 0s;
+}
+.team-title h5 {
+  color: #FFF;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.75px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.team-title h5 span {
+  display: block;
+  font-size: 90%;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.team-icon {
+  bottom: -50px;
+  opacity: 0;
+  position: relative;
+  transition: all 0.5s ease 0s;
+  visibility: hidden;
+}
+.team-icon a, .blog-icon a {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  color: #FFF;
+  display: inline-block;
+  font-size: 16px;
+  height: 40px;
+  line-height: 40px;
+  margin: 0 3px;
+  text-align: center;
+  width: 40px;
+}
+.team-icon a:hover, .blog-icon a:hover {
+    color: #1DA1F2;
+}
+.single-team-member:hover .team-info {
+    height: 100%;
+}
+.single-team-member:hover .team-title {
+    top: 0;
+}
+.single-team-member:hover .team-icon {
+    bottom: 0;
+    opacity: 1;
+    visibility: visible;
+}
+/*======== Testimonial Area Css =========*/
+.testimonial-area {
+  background: #000 url("asset/img/test-bg.jpg") repeat scroll center center / cover ;
+  position: relative;
+  z-index: 1;
+}
+.testimonial-area::before, .newslatter-area::before {
+  background: rgba(0, 0, 0, 0.8) none repeat scroll 0 0;
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.section-title.white, .section-title.white h3 {
+  color: #fff;
+}
+.section-title.white h3::before {
+    background: #FFF;
+}
+.test-img {
+  float: left;
+}
+.test-img img {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  padding: 3px;
+  position: relative;
+  top: 60px;
+}
+.test-info {
+  background: #f7f7f7 none repeat scroll 0 0;
+  border-radius: 5px;
+  margin-left: 190px;
+  padding: 70px 30px 40px 20px;
+  position: relative;
+}
+.test-info::before {
+  border-color: transparent #f7f7f7 transparent transparent;
+  border-style: solid;
+  border-width: 15px 30px 15px 0;
+  content: "";
+  height: 0;
+  left: -30px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 0;
+}
+.test-info h6 {
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+.test-info h6 span {
+  display: block;
+  font-family: "Lato",sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  margin-top: 10px;
+  text-transform: none;
+}
+.test-info p:last-child {
+  margin: 0;
+}
+/*======== Testimonial Carousel Css =========*/
+.testimonial-active .owl-dots {
+  bottom: -70px;
+}
+.testimonial-active .owl-dots div {
+  border-color: #fff;
+}
+/*======== Our Blog Area Css =========*/
+.our-blog-area.section-padding {
+  padding-bottom: 160px;
+}
+.blog-img {
+  float: left;
+  position: relative;
+  width: 50%;
+}
+.blog-bg {
+  background-color: #ddd;
+  background-position: center center;
+  background-size: cover;
+  height: 210px;
+}
+.blog-img::before {
+  background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
+  bottom: 0;
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  transform: rotateX(90deg) translateY(100%);
+  transform-origin: center bottom 0;
+  transition: all 0.5s ease 0s;
+  width: 100%;
+}
+.blog-img:hover::before {
+  transform: rotateX(0deg) translateY(0);
+}
+.blog-icon {
+  animation-delay: 0.5s;
+  opacity: 0;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transition: all 0.5s ease 0s;
+  visibility: hidden;
+  width: 100%;
+}
+.blog-img:hover .blog-icon {
+    opacity: 1;
+    visibility: visible;
+}
+.blog-content {
+  float: right;
+  padding-left: 15px;
+  width: 50%;
+}
+.blog-meta {
+  overflow: hidden;
+}
+.blog-info h6 {
+  font-size: 11px;
+  margin: 20px 0;
+  text-transform: uppercase;
+}
+.blog-info h6 a {
+  color: #353535;
+}
+.inline-btn {
+  color: #353535;
+  display: inline-block;
+  font-family: "Raleway",sans-serif;
+  font-size: 13px;
+  font-weight: 800;
+}
+.inline-btn:hover {
+    color: #8EC448;
+}
+.blog-active .owl-dots {
+  bottom: -60px;
+}
+/*======== Our Brand Area Css =========*/
+.brand-carousel {
+    padding-bottom: 40px;
+}
+.brand-carousel::before {
+  background: #dddddd none repeat scroll 0 0;
+  border-radius: 3px;
+  bottom: 0;
+  content: "";
+  height: 10px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+.single-branded-item img {
+  border: 1px solid #dddddd;
+  padding: 20px;
+}
+/*======== Newslatter Area Css =========*/
+.newslatter-area {
+  background: #ddd url("asset/img/newslatter-bg.jpg") repeat scroll center center / cover ;
+  position: relative;
+}
+.newslatter-area::before {
+  background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
+}
+.newslatter-form {
+    position: relative;
+}
+.newslatter-form input {
+  background: transparent none repeat scroll 0 0;
+  border: 1px solid #dddddd;
+  color: #fff;
+  padding: 15px;
+  width: 100%;
+}
+.newslatter-form button {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  background: transparent none repeat scroll 0 0;
+  border-color: currentcolor currentcolor currentcolor #dddddd;
+  border-image: none;
+  border-style: none none none solid;
+  border-width: medium medium medium 1px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 24px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  width: 60px;
+}
+/*======== Footer Area Css =========*/
+.footer-top {
+  padding: 80px 0;
+}
+.footer-widget p {
+  margin: 30px 0;
+}
+.contact-info ul li {
+  border-top: 1px solid #dddddd;
+  padding: 15px 0;
+}
+.contact-info ul li:last-child {
+    padding-bottom: 0;
+}
+.contact-icon, .twiter-icon, .blog-post-img {
+  float: left;
+}
+.contact-icon {
+  margin-top: 15px;
+}
+.contact-icon i, .twiter-icon i {
+  font-size: 20px;
+}
+.contact-text, .twiter-text {
+  margin-left: 40px;
+}
+.contact-text span, .twiter-text span, .blog-post-text span {
+  display: block;
+}
+.footer-widget .widget-title {
+  font-size: 14px;
+  margin-bottom: 60px;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+.instagram-photos {
+  margin: 0 -5px;
+}
+.instagram-photos a {
+  display: block;
+  float: left;
+  margin-bottom: 10px;
+  padding: 0 5px;
+  width: 33.33%;
+}
+.instagram-photos img {
+  width: 100%;
+}
+.twiter-icon {
+  margin: 0;
+}
+.blogpost-info ul li {
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.blog-post-text {
+  margin-left: 125px;
+}
+/*======== Footer Area Copyright Text Css =========*/
+.copyright-text {
+  border-top: 1px solid #dddddd;
+  padding: 25px 0;
+}
+.copyright-text p {
+  margin: 10px 0 0;
+}
+.footer-social-icon a {
+  border: 1px solid #dddddd;
+  border-radius: 50%;
+  color: #353535;
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 10px;
+  text-align: center;
+  width: 40px;
+}
+.footer-social-icon a:hover {
+    color: #1DA1F2;
+}
+.slicknav_menu {
+    display:none;
+}
+.slicknav_menu {
+  position: fixed;
+  width: 100%;
+  z-index: 999999;
+}

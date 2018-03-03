@@ -1,0 +1,193 @@
+/* Normal desktop :992px. */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+.mainmenu ul li a {
+  font-size: 12px;
+  padding: 20px 12px;
+}
+}
+   
+
+/* tablet desktop :768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+.search form {
+  margin: 0 auto 20px;
+  width: 30%;
+}
+.about-img {
+  margin-bottom: 50px;
+}
+.about-img::before {
+  right: 194px;
+}
+.col-md-6:nth-child(1) .single-team-member, .col-md-6:nth-child(2) .single-team-member {
+  margin-bottom: 30px;
+}
+/* #menu is the original menu */
+.header-area {
+  padding: 70px 0 0;
+}
+.logo {
+  margin-bottom: 20px;
+}
+.mainmenu #menu {
+	display:none;
+}	
+.slicknav_menu {
+		display:block;
+}
+
+
+
+
+
+
+}
+
+    
+    
+/* Small Mobile :320px. */
+
+@media (max-width: 767px) {
+.mainmenu #menu {
+	display:none;
+}	
+.slicknav_menu {
+		display:block;
+}
+.header-area {
+  position: relative;
+  top: 50px;
+}
+.d-table {
+  display: block;
+}
+.single-slide-item {
+  height: auto;
+}
+.slider-area {
+  padding-top: 60px;
+}
+.slider-text {
+  padding: 50px 0;
+}
+.slider-text h3 {
+  font-size: 20px;
+}
+.slider-text h1 {
+  font-size: 30px;
+  line-height: 35px;
+  margin: 20px 0;
+}
+.homepage-slides .owl-dots, .testimonial-active .owl-dots, .blog-active .owl-dots {
+  display: none;
+}
+.unify-btn {
+  font-size: 12px;
+  padding: 10px 20px;
+}
+.section-top-100 {
+  padding-top: 50px;
+}
+.single-service-item {
+  margin-bottom: 50px;
+}
+.portpolio-menu {
+  text-align: left;
+}
+.section-padding {
+  padding: 50px 0;
+}
+.about-img {
+  margin-bottom: 50px;
+}
+.about-img::before {
+  right: 50px;
+}
+.single-team-member {
+  margin-bottom: 30px;
+}
+.single-team-member img {
+  width: 100%;
+}
+.copyright-text {
+  text-align: center;
+}
+.footer-social-icon {
+  margin-top: 20px;
+  text-align: center;
+}
+.footer-social-icon a {
+  margin: 0 5px;
+}
+.portpolio-menu li:first-child {
+  padding-left: 0;
+}
+.portpolio-menu ul li {
+  font-size: 11px;
+  padding: 0 8px;
+}
+.footer-top {
+  padding: 50px 0;
+}
+.instagram-photos a {
+  width: 20%;
+}
+.owl-carousel .owl-item img {
+  width: 90px;
+}
+.test-info {
+  margin-left: 130px;
+  padding: 15px 10px 15px 15px;
+}
+.test-info h6 {
+  font-size: 13px;
+  margin-bottom: 15px;
+}
+.test-info p {
+  font-size: 13px;
+}
+.blog-meta span {
+  display: block;
+  float: none;
+}
+.blog-info h6 {
+  margin: 10px 0;
+}
+
+}
+    
+    
+    
+/* Large Mobile :480px. */
+@media (min-width: 480px) and (max-width: 767px) {
+.mainmenu #menu {
+	display:none;
+}	
+.slicknav_menu {
+		display:block;
+}
+.single-portpolio-bg {
+  height: 270px;
+}
+.portpolio-item:hover .portpolio-icon {
+    margin-bottom: 30px;
+}
+.about-img::before {
+  right: 64px;
+}
+.instagram-photos a {
+  width: 33.33%;
+}
+.blog-meta span {
+  display: block;
+  float: left;
+}
+.blog-meta span.floatright {
+  float: right;
+}
+
+
+
+}

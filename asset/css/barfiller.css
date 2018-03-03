@@ -1,0 +1,40 @@
+
+/*====== Burfiller Css ========*/
+.barfiller {
+  background: #dddddd none repeat scroll 0 0;
+  border: medium none;
+  border-radius: 8px 0 0 8px;
+  box-shadow: none;
+  height: 12px;
+  margin-bottom: 30px;
+  position: relative;
+  width: 100%;
+}
+
+.barfiller .fill {
+    border-radius: 8px;
+    display:block;
+    position:relative;
+    width:0px;
+    height:100%;
+    background:#333;
+    z-index:1;
+}
+
+.barfiller .tipWrap {
+    display:none;
+}
+
+.barfiller .tip {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  color: #353535;
+  font-family: "Raleway",sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  left: auto !important;
+  margin-top: -35px;
+  padding: 2px 4px;
+  position: absolute;
+  right: 0;
+  z-index: 2;
+}
