@@ -145,7 +145,10 @@ body {
   -moz-border-top-colors: none;
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
   border-color: currentcolor currentcolor currentcolor #dddddd;
-  border-image: none;
+  -webkit-border-image: none;
+     -moz-border-image: none;
+       -o-border-image: none;
+          border-image: none;
   border-style: none none none solid;
   border-width: medium medium medium 1px;
   cursor: pointer;
@@ -153,6 +156,7 @@ body {
   position: absolute;
   right: 0;
   text-align: center;
+  top: 0;
   width: 35px;
 }
 
@@ -183,7 +187,8 @@ body {
 }
 .unify-btn {
   border: 1px solid #121212;
-  border-radius: 5px;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
   color: #353535;
   display: inline-block;
   font-family: "Raleway",sans-serif;
@@ -210,11 +215,16 @@ body {
 }
 .homepage-slides .owl-dots div, .testimonial-active .owl-dots div, .blog-active .owl-dots div {
   border: 1px solid #121212;
-  border-radius: 50%;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
   display: inline-block;
   height: 10px;
   margin: 0 5px;
-  transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.3s ease 0s;
+     -moz-transition: all 0.3s ease 0s;
+      -ms-transition: all 0.3s ease 0s;
+       -o-transition: all 0.3s ease 0s;
+          transition: all 0.3s ease 0s;
   width: 10px;
 }
 .homepage-slides .owl-dots div.active, .testimonial-active .owl-dots div.active, .blog-active .owl-dots div.active {
@@ -240,7 +250,11 @@ body {
   height: 2px;
   left: 50%;
   position: absolute;
-  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+     -moz-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+       -o-transform: translateX(-50%);
+          transform: translateX(-50%);
   width: 50px;
 }
 .section-title p {
@@ -270,7 +284,11 @@ body {
   padding: 0 16px;
   position: relative;
   text-transform: uppercase;
-  transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.3s ease 0s;
+     -moz-transition: all 0.3s ease 0s;
+      -ms-transition: all 0.3s ease 0s;
+       -o-transition: all 0.3s ease 0s;
+          transition: all 0.3s ease 0s;
   z-index: 1;
 }
 .portpolio-menu ul li::before {
@@ -306,13 +324,29 @@ body {
   opacity: 0;
   position: absolute;
   top: 0;
-  transform: perspective(1000px) rotateY(45deg);
-  transform-origin: left center 0;
-  transition: all 1s ease 0s;
+  -webkit-transform: perspective(1000px) rotateY(45deg);
+     -moz-transform: perspective(1000px) rotateY(45deg);
+      -ms-transform: perspective(1000px) rotateY(45deg);
+       -o-transform: perspective(1000px) rotateY(45deg);
+          transform: perspective(1000px) rotateY(45deg);
+  -webkit-transform-origin: left center 0;
+     -moz-transform-origin: left center 0;
+      -ms-transform-origin: left center 0;
+       -o-transform-origin: left center 0;
+          transform-origin: left center 0;
+  -webkit-transition: all 1s ease 0s;
+     -moz-transition: all 1s ease 0s;
+      -ms-transition: all 1s ease 0s;
+       -o-transition: all 1s ease 0s;
+          transition: all 1s ease 0s;
   width: 100%;
 }
 .portpolio-item:hover .single-portpolio-bg::before {
-    transform: perspective(1000px) rotateY(0deg);
+    -webkit-transform: perspective(1000px) rotateY(0deg);
+       -moz-transform: perspective(1000px) rotateY(0deg);
+        -ms-transform: perspective(1000px) rotateY(0deg);
+         -o-transform: perspective(1000px) rotateY(0deg);
+            transform: perspective(1000px) rotateY(0deg);
     opacity: 1;
 }
 .portpolio-hover {
@@ -325,7 +359,11 @@ body {
 .portpolio-icon {
   margin-bottom: 165px;
   opacity: 0;
-  transition: all 0.5s ease 0.5s;
+  -webkit-transition: all 0.5s ease 0.5s;
+     -moz-transition: all 0.5s ease 0.5s;
+      -ms-transition: all 0.5s ease 0.5s;
+       -o-transition: all 0.5s ease 0.5s;
+          transition: all 0.5s ease 0.5s;
 }
 .portpolio-item:hover .portpolio-icon {
     opacity: 1;
@@ -333,7 +371,8 @@ body {
 }
 .portpolio-icon a {
   background: #8ec448 none repeat scroll 0 0;
-  border-radius: 50%;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
   display: inline-block;
   font-size: 26px;
   height: 50px;
@@ -345,7 +384,11 @@ body {
 .portpolio-info {
   position: relative;
   top: 70px;
-  transition: all 0.5s ease 0.5s;
+  -webkit-transition: all 0.5s ease 0.5s;
+     -moz-transition: all 0.5s ease 0.5s;
+      -ms-transition: all 0.5s ease 0.5s;
+       -o-transition: all 0.5s ease 0.5s;
+          transition: all 0.5s ease 0.5s;
   opacity: 0;
 }
 .portpolio-item:hover .portpolio-info {
@@ -382,7 +425,11 @@ body {
   position: absolute;
   right: 69px;
   top: 0;
-  transform: skewX(-26deg);
+  -webkit-transform: skewX(-26deg);
+     -moz-transform: skewX(-26deg);
+      -ms-transform: skewX(-26deg);
+       -o-transform: skewX(-26deg);
+          transform: skewX(-26deg);
   width: 12px;
 }
 /*======== Our Skill Area Css =========*/
@@ -405,14 +452,22 @@ body {
   height: 30%;
   position: absolute;
   text-align: center;
-  transition: all 0.5s ease 0s;
+  -webkit-transition: all 0.5s ease 0s;
+     -moz-transition: all 0.5s ease 0s;
+      -ms-transition: all 0.5s ease 0s;
+       -o-transition: all 0.5s ease 0s;
+          transition: all 0.5s ease 0s;
   width: 100%;
   z-index: 1;
 }
 .team-inner-content {
   position: relative;
   top: 50%;
-  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+     -moz-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+       -o-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 .team-info::before {
   background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
@@ -427,7 +482,11 @@ body {
 .team-title {
   position: relative;
   top: 30px;
-  transition: all 0.5s ease 0s;
+  -webkit-transition: all 0.5s ease 0s;
+     -moz-transition: all 0.5s ease 0s;
+      -ms-transition: all 0.5s ease 0s;
+       -o-transition: all 0.5s ease 0s;
+          transition: all 0.5s ease 0s;
 }
 .team-title h5 {
   color: #FFF;
@@ -447,12 +506,17 @@ body {
   bottom: -50px;
   opacity: 0;
   position: relative;
-  transition: all 0.5s ease 0s;
+  -webkit-transition: all 0.5s ease 0s;
+     -moz-transition: all 0.5s ease 0s;
+      -ms-transition: all 0.5s ease 0s;
+       -o-transition: all 0.5s ease 0s;
+          transition: all 0.5s ease 0s;
   visibility: hidden;
 }
 .team-icon a, .blog-icon a {
   border: 1px solid #fff;
-  border-radius: 50%;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
   color: #FFF;
   display: inline-block;
   font-size: 16px;
@@ -502,14 +566,16 @@ body {
 }
 .test-img img {
   border: 1px solid #fff;
-  border-radius: 50%;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
   padding: 3px;
   position: relative;
   top: 60px;
 }
 .test-info {
   background: #f7f7f7 none repeat scroll 0 0;
-  border-radius: 5px;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
   margin-left: 190px;
   padding: 70px 30px 40px 20px;
   position: relative;
@@ -523,7 +589,11 @@ body {
   left: -30px;
   position: absolute;
   top: 50%;
-  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+     -moz-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+       -o-transform: translateY(-50%);
+          transform: translateY(-50%);
   width: 0;
 }
 .test-info h6 {
@@ -570,21 +640,44 @@ body {
   height: 100%;
   left: 0;
   position: absolute;
-  transform: rotateX(90deg) translateY(100%);
-  transform-origin: center bottom 0;
-  transition: all 0.5s ease 0s;
+  -webkit-transform: rotateX(90deg) translateY(100%);
+     -moz-transform: rotateX(90deg) translateY(100%);
+      -ms-transform: rotateX(90deg) translateY(100%);
+       -o-transform: rotateX(90deg) translateY(100%);
+          transform: rotateX(90deg) translateY(100%);
+  -webkit-transform-origin: center bottom 0;
+     -moz-transform-origin: center bottom 0;
+      -ms-transform-origin: center bottom 0;
+       -o-transform-origin: center bottom 0;
+          transform-origin: center bottom 0;
+  -webkit-transition: all 0.5s ease 0s;
+     -moz-transition: all 0.5s ease 0s;
+      -ms-transition: all 0.5s ease 0s;
+       -o-transition: all 0.5s ease 0s;
+          transition: all 0.5s ease 0s;
   width: 100%;
 }
 .blog-img:hover::before {
-  transform: rotateX(0deg) translateY(0);
+  -webkit-transform: rotateX(0deg) translateY(0);
+     -moz-transform: rotateX(0deg) translateY(0);
+      -ms-transform: rotateX(0deg) translateY(0);
+       -o-transform: rotateX(0deg) translateY(0);
+          transform: rotateX(0deg) translateY(0);
 }
 .blog-icon {
-  animation-delay: 0.5s;
+  -webkit-animation-delay: 0.5s;
+     -moz-animation-delay: 0.5s;
+       -o-animation-delay: 0.5s;
+          animation-delay: 0.5s;
   opacity: 0;
   position: absolute;
   text-align: center;
   top: 50%;
-  transition: all 0.5s ease 0s;
+  -webkit-transition: all 0.5s ease 0s;
+     -moz-transition: all 0.5s ease 0s;
+      -ms-transition: all 0.5s ease 0s;
+       -o-transition: all 0.5s ease 0s;
+          transition: all 0.5s ease 0s;
   visibility: hidden;
   width: 100%;
 }
@@ -664,7 +757,10 @@ body {
   -moz-border-top-colors: none;
   background: transparent none repeat scroll 0 0;
   border-color: currentcolor currentcolor currentcolor #dddddd;
-  border-image: none;
+  -webkit-border-image: none;
+     -moz-border-image: none;
+       -o-border-image: none;
+          border-image: none;
   border-style: none none none solid;
   border-width: medium medium medium 1px;
   color: #fff;
@@ -743,7 +839,8 @@ body {
 }
 .footer-social-icon a {
   border: 1px solid #dddddd;
-  border-radius: 50%;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
   color: #353535;
   display: inline-block;
   height: 40px;
